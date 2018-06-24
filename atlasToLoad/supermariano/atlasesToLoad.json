@@ -1,0 +1,18 @@
+{
+  "atlas": [
+    {
+      "id": "atlasScenery",
+      "file": {
+        "img": "atlasToLoad/supermariano/atlas_scenery.png",
+        "json": "atlasToLoad/supermariano/atlas_scenery.json"
+      }
+    },
+    {
+      "id": "atlasCharacters",
+      "file": {
+        "img": "atlasToLoad/supermariano/atlas_characters.png",
+        "json": "atlasToLoad/supermariano/atlas_characters.json"
+      }
+    }
+  ]
+}

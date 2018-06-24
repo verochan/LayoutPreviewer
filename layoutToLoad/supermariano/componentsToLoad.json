@@ -1,0 +1,158 @@
+{
+  "components": [
+    {
+      "name": "ResolutionToLoad",
+      "isCompulsory": true
+    },
+    {
+      "name": "GameLayout",
+      "isCompulsory": true
+    },
+    {
+      "parent": "GameLayout",
+      "names": [
+        {
+          "name": "GameInfoLayout",
+          "isCompulsory": true
+        },
+        {
+          "name": "CloudsLayout",
+          "isCompulsory": true
+        },
+        {
+          "name": "QuestionMarkBoxesLayout",
+          "isCompulsory": true
+        },
+        {
+          "name": "BrownBoxesLayout",
+          "isCompulsory": true
+        },
+        {
+          "name": "BrickBoxesLayout",
+          "isCompulsory": true
+        },
+        {
+          "name": "PipesLayout",
+          "isCompulsory": false
+        },
+        {
+          "name": "GoombasLayout",
+          "isCompulsory": true
+        },
+        {
+          "name": "GoombasGiantLayout",
+          "isCompulsory": true
+        },
+        {
+          "name": "MushroomsLayout",
+          "isCompulsory": true
+        },
+        {
+          "name": "MarianoLayout",
+          "isCompulsory": true
+        },
+        {
+          "name": "ExitPopupLayout",
+          "isCompulsory": true
+        },
+        {
+          "name": "LevelSelectionPopupLayout",
+          "isCompulsory": false
+        }
+      ]
+    },
+    {
+      "name": "GameInfoLayout",
+      "isCompulsory": true
+    },
+    {
+      "parent": "GameInfoLayout",
+      "names": [
+        {
+          "name": "CoinsInfoLayout",
+          "isCompulsory": true
+        },
+        {
+          "name": "PointsInfoLayout",
+          "isCompulsory": true
+        },
+        {
+          "name": "TimeInfoLayout",
+          "isCompulsory": true
+        }
+      ]
+    },
+    {
+      "name": "CloudsLayout",
+      "isCompulsory": true
+    },
+    {
+      "name": "BigCloudLayout",
+      "isCompulsory": true
+    },
+    {
+      "name": "SmallCloudLayout",
+      "isCompulsory": true
+    },
+    {
+      "name": "QuestionMarkBoxesLayout",
+      "isCompulsory": true
+    },
+    {
+      "name": "BrownBoxesLayout",
+      "isCompulsory": true
+    },
+    {
+      "name": "BrickBoxesLayout",
+      "isCompulsory": true
+    },
+    {
+      "name": "PipesLayout",
+      "isCompulsory": false
+    },
+    {
+      "name": "QuestionMarkBoxLayout",
+      "isCompulsory": true
+    },
+    {
+      "name": "BrownBoxLayout",
+      "isCompulsory": true
+    },
+    {
+      "name": "BrickBoxLayout",
+      "isCompulsory": true
+    },
+    {
+      "name": "PipeLayout",
+      "isCompulsory": false
+    },
+    {
+      "name": "GoombasLayout",
+      "isCompulsory": true
+    },
+    {
+      "name": "GoombaLayout",
+      "isCompulsory": true
+    },
+    {
+      "name": "MushroomsLayout",
+      "isCompulsory": true
+    },
+    {
+      "name": "MushroomLayout",
+      "isCompulsory": true
+    },
+    {
+      "name": "MarianoLayout",
+      "isCompulsory": true
+    },
+    {
+      "name": "ExitPopupLayout",
+      "isCompulsory": true
+    },
+    {
+      "name": "LevelSelectionPopupLayout",
+      "isCompulsory": true
+    }
+  ]
+}

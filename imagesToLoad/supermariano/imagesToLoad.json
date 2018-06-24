@@ -1,0 +1,12 @@
+{
+  "images": [
+    {
+      "id": "SpritePopupBackgroundTexture",
+      "file": "imagesToLoad/supermariano/popupBackground.png"
+    },
+    {
+      "id": "background",
+      "file": "imagesToLoad/supermariano/background.png"
+    }
+  ]
+}

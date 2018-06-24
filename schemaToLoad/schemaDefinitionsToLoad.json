@@ -1,0 +1,156 @@
+{
+  "$id": "schemaDefinitionsToLoad.json",
+  "definitions":
+  {
+    "resolution":
+    {
+      "type":"object",
+      "properties":
+      {
+        "w": {
+          "type": "integer"
+        },
+        "h": {
+          "type": "integer"
+        }
+      },
+      "required": [ "w", "h" ],
+      "additionalProperties": false
+    },
+    "sprite":
+    {
+      "type":"object",
+        "properties":
+        {
+          "x": {
+            "type": "integer"
+          },
+          "y": {
+            "type": "integer"
+          },
+          "w": {
+            "type": "integer"
+          },
+          "h": {
+            "type": "integer"
+          },
+          "z": {
+            "type": "integer"
+          }
+        },
+        "required": [ "x", "y", "w", "h" ],
+        "additionalProperties": false
+    },
+    "button":
+    {
+      "type":"object",
+      "properties":
+      {
+        "x": {
+          "type": "integer"
+        },
+        "y": {
+          "type": "integer"
+        },
+        "w": {
+          "type": "integer"
+        },
+        "h": {
+          "type": "integer"
+        },
+        "z": {
+          "type": "integer"
+        }
+      },
+      "required": [ "x", "y", "w", "h" ],
+      "additionalProperties": false
+    },
+    "layout":
+    {
+      "type":"object",
+      "properties":
+      {
+        "x": {
+          "type": "integer"
+        },
+        "y": {
+          "type": "integer"
+        },
+        "w": {
+          "type": "integer"
+        },
+        "h": {
+          "type": "integer"
+        },
+        "z": {
+          "type": "integer"
+        },
+        "scale": {
+          "type": "object",
+          "properties":
+          {
+            "x":{
+              "type": "number"
+            },
+            "y":{
+              "type": "number"
+            }
+          },
+          "required": [ "x", "y"],
+          "additionalProperties": false
+        }
+      },
+      "patternProperties": {
+        "^(?=.*Sprite)(?!.*Button)(?!.*Text)(?!.*Layout)(?=.*_)(?!.*\\s)(?=.+[A-Z]).+$": { "$ref": "#/definitions/sprite" },
+        "^(?=.*Button)(?!.*Text)(?!.*Sprite)(?!.*Layout)(?=.*_)(?!.*\\s)(?=.+[A-Z]).+$": { "$ref": "#/definitions/button" },
+        "^(?=.*Tag)(?!.*Text)(?!.*Button)(?!.*Sprite)(?!.*Layout)(?!.*\\s)[a-zA-Z].+$": { "$ref": "#/definitions/text" },
+        "^(?=.*Text)(?!.*Button)(?!.*Sprite)(?!.*Layout)(?!.*\\s).+$": { "$ref": "#/definitions/text" },
+        "^(?=.*Layout)(?!.*Button)(?!.*Text)(?!.*Sprite)(?!.*\\s).+$": { "$ref": "#/definitions/layout" }
+      },
+      "additionalProperties": false
+    },
+    "text":
+    {
+      "type":"object",
+      "properties":
+      {
+        "x": {
+          "type": "integer"
+        },
+        "y": {
+          "type": "integer"
+        },
+        "w": {
+          "type": "integer"
+        },
+        "h": {
+          "type": "integer"
+        },
+        "z": {
+          "type": "integer"
+        },
+        "style":
+        {
+          "type": "object",
+          "properties":
+          {
+            "font":{
+              "type": "string",
+              "pattern": "^(\\d)+px\\s[a-zA-Z]+$"
+            },
+            "color":{
+              "type": "string"
+            },
+            "alignment":{
+              "type": "string"
+            }
+          },
+          "required": [ "font", "color" ],
+          "additionalProperties": false
+        }
+      },
+      "required": [ "x", "y", "w", "h" ],
+      "additionalProperties": false
+    }
+  }
+}

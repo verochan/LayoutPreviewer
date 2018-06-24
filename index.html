@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Layout Previewer</title>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <script src="libs/pixi.js"></script>
+            <script src="libs/event.js"></script>
+            <script src="libs/eventemitter.js"></script>
+            <script src="libs/jsonloader.js"></script>
+            <script src="libs/pixibutton.js"></script>
+            <script src="libs/ajv.js"></script>
+        </head>
+        <body style="background-color:#2a2a2a; color:white; font-family: 'Verdana';">
+        <div id="titleContainer" style="float:left;color:white;font-size:40px;cursor:pointer;visibility:visible;">
+            <i class="fa fa-object-group" aria-hidden="true"></i>&nbsp;Welcome to Layout Previewer
+        </div>
+            <div id="stagebackground"></div>
+            <div id="checkboxesListButton" style="cursor: pointer; position: fixed; top: 0%; margin-top:20px; background-color: black; color: white; padding: 10px; border:2px solid white; border-radius:15px;visibility:hidden;" ></div>
+            <div id="checkboxesList" style="position: fixed; top: 0%; margin-left:70px; margin-top:20px; background: rgba(0, 0, 0, 0.5); color: white; padding: 10px; border:2px solid white; border-radius:15px;visibility:hidden;line-height: 200%;column-count:2;height:50%;overflow:auto;"></div>
+            <div id="parserInstructions" style="position: fixed; top: 10%; left: 50%; transform: translate(-50%);margin-top:50px; border:2px solid white; padding:15px 15px 15px 15px; visibility:visible; background-color:black; border-radius: 15px;line-height: 200%;">
+                <div>
+                    <h1>Quick Start Guide</h1>
+                    0.) Use Chrome browser and enable Chrome Developer Tools to use this tool and see the log information.<br/>
+                    1.) Copy your layout, atlases, images and font files and definitions to the suitable folders inside your custom project folder (such as MyProject).<br/>
+                    2.) Add to this URL (changing supermariano by your project's folder real name): /?project=supermariano&text=text
+                </div>
+            </div>
+            <script src="src/settings.js"></script>
+            <script src="src/assetsType.js"></script>
+            <script src="src/renderer.js"></script>
+            <script src="src/view.js"></script>
+            <script src="src/utils.js"></script>
+            <script src="src/checkboxesList.js"></script>
+            <script src="src/layoutParser.js"></script>
+            <script src="src/layoutLoader.js"></script>
+            <script src="src/assetsLoader.js"></script>
+            <script src="src/layoutChecker.js"></script>
+            <script src="index.js"></script>
+        </body>
+</html>

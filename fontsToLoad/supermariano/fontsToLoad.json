@@ -1,0 +1,14 @@
+{
+  "fonts": [
+    {
+      "id": "Verdana",
+      "file": "fontsToLoad/Verdana.png",
+      "xml": "fontsToLoad/Verdana.fnt"
+    },
+    {
+      "id": "FuturaLTExtraBold",
+      "file": "fontsToLoad/FuturaLTExtraBold.png",
+      "xml": "fontsToLoad/FuturaLTExtraBold.fnt"
+    }
+  ]
+}

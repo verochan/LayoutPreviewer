@@ -1,0 +1,617 @@
+{
+	"elements": {
+		"ResolutionToLoad": {
+			"w":1376,
+			"h":720
+		},
+		"GameLayout": {
+			"GameInfoLayout": {
+				"x": 50,
+				"y": 30,
+				"w": 1170,
+				"h": 40,
+				"z": 0
+			},
+			"CloudsLayout": {
+				"x": 0,
+				"y": 0,
+				"w": 1376,
+				"h": 400,
+				"z": 0
+			},
+			"QuestionMarkBoxesLayout": {
+				"x": 0,
+				"y": 0,
+				"w": 1376,
+				"h": 510,
+				"z": 0
+			},
+			"BrownBoxesLayout": {
+				"x": 0,
+				"y": 0,
+				"w": 1376,
+				"h": 510,
+				"z": 0
+			},
+			"BrickBoxesLayout": {
+				"x": 0,
+				"y": 0,
+				"w": 1376,
+				"h": 510,
+				"z": 0
+			},
+			"PipesLayout": {
+				"x": 0,
+				"y": 505,
+				"w": 1376,
+				"h": 105,
+				"z": 0
+			},
+			"GoombasLayout": {
+				"x": 0,
+				"y": 0,
+				"w": 1376,
+				"h": 720,
+				"z": 0
+			},
+			"GoombasGiantLayout": {
+				"x": 0,
+				"y": 0,
+				"w": 1376,
+				"h": 720,
+				"z": 0
+			},
+			"MushroomsLayout": {
+				"x": 0,
+				"y": 0,
+				"w": 1376,
+				"h": 720,
+				"z": 0
+			},
+			"MarianoLayout": {
+				"x": 0,
+				"y": 0,
+				"w": 1376,
+				"h": 720,
+				"z": 0
+			},
+			"ExitPopupLayout": {
+				"x": 380,
+				"y": 200,
+				"w": 529,
+				"h": 315,
+				"z": 0
+			},
+			"LevelSelectionPopupLayout": {
+				"x": 380,
+				"y": 200,
+				"w": 529,
+				"h": 315,
+				"z": 0
+			}
+		},
+		"GameInfoLayout": {
+			"CoinsInfoLayout": {
+				"x": 50,
+				"y": 30,
+				"w": 1170,
+				"h": 40,
+				"z": 0
+			},
+			"PointsInfoLayout": {
+				"x": 700,
+				"y": 30,
+				"w": 1376,
+				"h": 400,
+				"z": 0
+			},
+			"TimeInfoLayout": {
+				"x": 1000,
+				"y": 30,
+				"w": 1376,
+				"h": 510,
+				"z": 0
+			}
+		},
+		"CoinsInfoLayout": {
+			"SpriteCoin_CoinCounter": {
+				"x": 0,
+				"y": 0,
+				"w": 22,
+				"h": 32,
+				"z": 0
+			},
+			"TextCoinsNumber": {
+				"x": 30,
+				"y": 0,
+				"w": 100,
+				"h": 40,
+				"z": 0,
+				"style": {
+					"font": "33px Verdana",
+					"color": "0xFFFFFF",
+					"alignment": "left"
+				}
+			}
+		},
+		"PointsInfoLayout": {
+			"TextPointsNumber": {
+				"x": 0,
+				"y": 0,
+				"w": 100,
+				"h": 40,
+				"z": 0,
+				"style": {
+					"font": "33px Verdana",
+					"color": "0xFFFFFF",
+					"alignment": "left"
+				}
+			}
+		},
+		"TimeInfoLayout": {
+			"SpriteClock_ClockIcon": {
+				"x": 0,
+				"y": 5,
+				"w": 22,
+				"h": 32,
+				"z": 0
+			},
+			"TextTimeLeft": {
+				"x": 35,
+				"y": 0,
+				"w": 100,
+				"h": 40,
+				"z": 0,
+				"style": {
+					"font": "33px Verdana",
+					"color": "0xFFFFFF",
+					"alignment": "left"
+				}
+			}
+		},
+		"CloudsLayout": {
+			"BigCloudLayout_1": {
+				"x": 143,
+				"y": 141,
+				"w": 160,
+				"h": 80,
+				"z": 0
+			},
+			"BigCloudLayout_2": {
+				"x": 895,
+				"y": 260,
+				"w": 160,
+				"h": 80,
+				"z": 0
+			},
+			"SmallCloudLayout_1": {
+				"x": 1082,
+				"y": 137,
+				"w": 107,
+				"h": 81,
+				"z": 0
+			},
+			"SmallCloudLayout_2": {
+				"x": 500,
+				"y": 260,
+				"w": 107,
+				"h": 81,
+				"z": 0
+			}
+		},
+		"BigCloudLayout": {
+			"SpriteBigCloud_BCloud": {
+				"x": 0,
+				"y": 0,
+				"w": 160,
+				"h": 80,
+				"z": 0
+			}
+		},
+		"SmallCloudLayout": {
+			"SpriteSmallCloud_SCloud": {
+				"x": 0,
+				"y": 0,
+				"w": 107,
+				"h": 81,
+				"z": 0
+			}
+		},
+		"QuestionMarkBoxesLayout": {
+			"QuestionMarkBoxLayout_1": {
+				"x": 907,
+				"y": 240,
+				"w": 53,
+				"h": 53,
+				"z": 0
+			},
+			"QuestionMarkBoxLayout_2": {
+				"x": 657,
+				"y": 406,
+				"w": 53,
+				"h": 53,
+				"z": 0
+			},
+			"QuestionMarkBoxLayout_3": {
+				"x": 1000,
+				"y": 406,
+				"w": 53,
+				"h": 53,
+				"z": 0
+			}
+		},
+		"QuestionMarkBoxLayout": {
+			"SpriteQuestionMarkBox_QMBox": {
+				"x": 0,
+				"y": 0,
+				"w": 53,
+				"h": 53,
+				"z": 0
+			}
+		},
+		"BrownBoxesLayout": {
+			"BrownBoxLayout_1": {
+				"x": 896,
+				"y": 406,
+				"w": 53,
+				"h": 53,
+				"z": 0
+			}
+		},
+		"BrownBoxLayout": {
+			"SpriteBrownBox_BBox": {
+				"x": 0,
+				"y": 0,
+				"w": 53,
+				"h": 53,
+				"z": 0
+			}
+		},
+		"BrickBoxesLayout": {
+			"BrickBoxLayout_1": {
+				"x": 843,
+				"y": 406,
+				"w": 53,
+				"h": 53,
+				"z": 0
+			},
+			"BrickBoxLayout_2": {
+				"x": 947,
+				"y": 406,
+				"w": 53,
+				"h": 53,
+				"z": 0
+			},
+			"BrickBoxLayout_3": {
+				"x": 1053,
+				"y": 406,
+				"w": 53,
+				"h": 53,
+				"z": 0
+			}
+		},
+		"BrickBoxLayout": {
+			"SpriteBrickBox_BrBox": {
+				"x": 0,
+				"y": 0,
+				"w": 53,
+				"h": 53,
+				"z": 0
+			}
+		},
+		"PipesLayout": {
+			"PipeLayout_1": {
+				"x": 100,
+				"y": 0,
+				"w": 106,
+				"h": 105,
+				"z": 0
+			}
+		},
+		"PipeLayout": {
+			"SpritePipe_Pipe": {
+				"x": 0,
+				"y": 5,
+				"w": 106,
+				"h": 105,
+				"z": 0
+			}
+		},
+		"GoombasLayout": {
+			"GoombaLayout_1": {
+				"x": 1053,
+				"y": 562,
+				"w": 106,
+				"h": 105,
+				"z": 0
+			},
+			"GoombaLayout_2": {
+				"x": 500,
+				"y": 562,
+				"w": 106,
+				"h": 105,
+				"z": 0
+			}
+		},
+		"GoombasGiantLayout": {
+			"GoombaLayout_Giant1": {
+				"x": 300,
+				"y": 510,
+				"w": 106,
+				"h": 105,
+				"z": 0,
+				"scale": {
+					"x":2,
+					"y":2
+				}
+			},
+			"GoombaLayout_Giant2": {
+				"x": 700,
+				"y": 510,
+				"w": 106,
+				"h": 105,
+				"z": 0,
+				"scale": {
+					"x":2,
+					"y":2
+				}
+			}
+		},
+		"GoombaLayout": {
+			"SpriteGoomba_GoombaCharacter": {
+				"x": 0,
+				"y": 0,
+				"w": 106,
+				"h": 105,
+				"z": 0
+			}
+		},
+		"MushroomsLayout": {
+			"MushroomLayout_1": {
+				"x": 896,
+				"y": 352,
+				"w": 54,
+				"h": 54,
+				"z": 0
+			}
+		},
+		"MushroomLayout": {
+			"SpriteMushroom_Mushroom": {
+				"x": 0,
+				"y": 0,
+				"w": 54,
+				"h": 54,
+				"z": 0
+			}
+		},
+		"MarianoLayout": {
+			"SpriteMariano_MainCharacter": {
+				"x": 130,
+				"y": 458,
+				"w": 41,
+				"h": 52,
+				"z": 0
+			}
+		},
+		"ExitPopupLayout": {
+			"SpritePopupBackground_ExitBackground": {
+				"x": 0,
+				"y": 0,
+				"w": 529,
+				"h": 315,
+				"z": 0
+			},
+			"TextExit": {
+				"x": 30,
+				"y": 30,
+				"w": 100,
+				"h": 40,
+				"z": 0,
+				"style": {
+					"font": "43px Verdana",
+					"color": "0x000000",
+					"alignment": "left"
+				}
+			},
+			"ButtonPopup_ExitGame": {
+				"x": 200,
+				"y": 200,
+				"w": 237,
+				"h": 123,
+				"z": 0
+			},
+			"ExitGameTagUp": {
+				"x": 78,
+				"y": 72,
+				"w": 163,
+				"h": 37,
+				"z": 0,
+				"style": {
+					"font": "26px FuturaLTExtraBold",
+					"color": "0xFFFFFF",
+					"alignment": "center"
+				}
+			},
+			"ExitGameTagOver": {
+				"x": 78,
+				"y": 72,
+				"w": 163,
+				"h": 37,
+				"z": 0,
+				"style": {
+					"font": "26px FuturaLTExtraBold",
+					"color": "0x000000",
+					"alignment": "center"
+				}
+			},
+			"ExitGameTagDown": {
+				"x": 78,
+				"y": 72,
+				"w": 163,
+				"h": 37,
+				"z": 0,
+				"style": {
+					"font": "26px FuturaLTExtraBold",
+					"color": "0xFF0000",
+					"alignment": "center"
+				}
+			}
+		},
+		"LevelSelectionPopupLayout": {
+			"SpritePopupBackground_LevelSelectionBackground": {
+				"x": 0,
+				"y": 0,
+				"w": 529,
+				"h": 315,
+				"z": 0
+			},
+			"TextSelection": {
+				"x": 30,
+				"y": 30,
+				"w": 100,
+				"h": 40,
+				"z": 0,
+				"style": {
+					"font": "43px Verdana",
+					"color": "0x000000",
+					"alignment": "left"
+				}
+			},
+			"ButtonPopup_Easy": {
+				"x": 40,
+				"y": 200,
+				"w": 237,
+				"h": 123,
+				"z": 0
+			},
+			"EasyTagUp": {
+				"x": 78,
+				"y": 72,
+				"w": 163,
+				"h": 37,
+				"z": 0,
+				"style": {
+					"font": "26px FuturaLTExtraBold",
+					"color": "0xFFFFFF",
+					"alignment": "center"
+				}
+			},
+			"EasyTagOver": {
+				"x": 78,
+				"y": 72,
+				"w": 163,
+				"h": 37,
+				"z": 0,
+				"style": {
+					"font": "26px FuturaLTExtraBold",
+					"color": "0x000000",
+					"alignment": "center"
+				}
+			},
+			"EasyTagDown": {
+				"x": 78,
+				"y": 72,
+				"w": 163,
+				"h": 37,
+				"z": 0,
+				"style": {
+					"font": "26px FuturaLTExtraBold",
+					"color": "0xFF0000",
+					"alignment": "center"
+				}
+			},
+			"ButtonPopup_Normal": {
+				"x": 200,
+				"y": 200,
+				"w": 237,
+				"h": 123,
+				"z": 0
+			},
+			"NormalTagUp": {
+				"x": 78,
+				"y": 72,
+				"w": 163,
+				"h": 37,
+				"z": 0,
+				"style": {
+					"font": "26px FuturaLTExtraBold",
+					"color": "0xFFFFFF",
+					"alignment": "center"
+				}
+			},
+			"NormalTagOver": {
+				"x": 78,
+				"y": 72,
+				"w": 163,
+				"h": 37,
+				"z": 0,
+				"style": {
+					"font": "26px FuturaLTExtraBold",
+					"color": "0x000000",
+					"alignment": "center"
+				}
+			},
+			"NormalTagDown": {
+				"x": 78,
+				"y": 72,
+				"w": 163,
+				"h": 37,
+				"z": 4,
+				"style": {
+					"font": "26px FuturaLTExtraBold",
+					"color": "0xFF0000",
+					"alignment": "center"
+				}
+			},
+			"ButtonPopup_Difficult": {
+				"x": 360,
+				"y": 200,
+				"w": 237,
+				"h": 123,
+				"z": 0
+			},
+			"DifficultTagUp": {
+				"x": 78,
+				"y": 72,
+				"w": 163,
+				"h": 37,
+				"z": 0,
+				"style": {
+					"font": "26px FuturaLTExtraBold",
+					"color": "0xFFFFFF",
+					"alignment": "center"
+				}
+			},
+			"DifficultTagOver": {
+				"x": 78,
+				"y": 72,
+				"w": 163,
+				"h": 37,
+				"z": 0,
+				"style": {
+					"font": "26px FuturaLTExtraBold",
+					"color": "0x000000",
+					"alignment": "center"
+				}
+			},
+			"DifficultTagDown": {
+				"x": 78,
+				"y": 72,
+				"w": 163,
+				"h": 37,
+				"z": 0,
+				"style": {
+					"font": "26px FuturaLTExtraBold",
+					"color": "0xFF0000",
+					"alignment": "center"
+				}
+			}
+		}
+	},
+	"meta": {
+		"app": "supermariano",
+		"version": "1.0",
+		"id": "supermariano",
+		"scale": "1"
+	}
+}
