@@ -55,24 +55,24 @@ Because of simplicity and because of trying to be a tool easy for designers to u
 ### Layout file elements
 
 
-<b>Sprite type elements</b>: 'Sprite'+'GraphicElementName'+'_'+'elementId' , elementId needs to be unique<br/><br/>
-<b>Button type elements</b>: 'Button'+'GraphicElementName'+'_'+'elementId' , elementId needs to be unique<br/><br/>
+<b>Sprite type elements</b>: 'Sprite'+'GraphicElementName'+'\_'+'elementId' , elementId needs to be unique<br/><br/>
+<b>Button type elements</b>: 'Button'+'GraphicElementName'+'\_'+'elementId' , elementId needs to be unique<br/><br/>
 <b>Tag type elements</b>: The button's 'elementId' part + the button state name (Up, Over, Down, Disabled, Selected)<br/><br/>
 <b>Text type elements</b>: 'Text'+'ElementName'<br/><br/>
-<b>Layout type elements</b>: This type of element can have whatever name followed by 'Layout'. If this layout is going to be used several times by other layouts, you need to add '_' + an identifier<br/><br/>
+<b>Layout type elements</b>: This type of element can have whatever name followed by 'Layout'. If this layout is going to be used several times by other layouts, you need to add '\_' + an identifier<br/><br/>
 <b>IMPORTANT</b> 'Sprite', 'Button', 'Text' and 'Tag' are reserved words specifically used for its own case. Make sure you don't use them mixed, for example, when defining a button element, don't use the 'sprite' word in the name. Otherwise, the tool won't work as expected.<br/>
 
 #### Examples 
 
 <b>Sprite type elements</b><br/><br/>
-SpriteMushroom_Mushroom<br/>
-SpritePopupBackground_LevelSelectionBackground<br/>
-SpritePopupBackground_ExitBackground<br/><br/>
+SpriteMushroom\_Mushroom<br/>
+SpritePopupBackground\_LevelSelectionBackground<br/>
+SpritePopupBackground\_ExitBackground<br/><br/>
 
 <b>Button type elements</b><br/><br/>
-ButtonPopup_Normal<br/>
-ButtonPopup_Easy<br/>
-ButtonPopup_ExitGame<br/><br/>
+ButtonPopup\_Normal<br/>
+ButtonPopup\_Easy<br/>
+ButtonPopup\_ExitGame<br/><br/>
 
 <b>Tag type elements</b><br/><br/>
 ExitGameTagUp<br/>
@@ -86,8 +86,8 @@ TextExit<br/>
 <b>Layout type elements</b><br/><br/>
 LevelSelectionPopupLayout<br/>
 GoombaLayout<br/>
-GoombaLayout_1<br/>
-GoombasLayout_Giant1<br/><br/>
+GoombaLayout\_1<br/>
+GoombasLayout\_Giant1<br/><br/>
 
 ### Atlas file elements
 

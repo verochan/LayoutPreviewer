@@ -1,0 +1,62 @@
+body
+{
+    background-color:#2a2a2a;
+    color:white;
+    font-family: 'Verdana';
+}
+
+#titleContainer
+{
+    float:left;
+    color:white;
+    font-size:40px;
+    cursor:pointer;
+    visibility:visible;
+}
+
+#checkboxesListButton
+{
+    cursor: pointer;
+    position: fixed;
+    top: 0%;
+    margin-top:20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border:2px solid white;
+    border-radius:15px;
+    visibility:hidden;
+}
+
+#checkboxesList
+{
+    position: fixed;
+    top: 0%;
+    margin-left:70px;
+    margin-top:20px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border:2px solid white;
+    border-radius:15px;
+    visibility:hidden;
+    line-height: 200%;
+    column-count:2;
+    height:50%;
+    overflow:auto;
+}
+
+#parserInstructions
+{
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top:50px;
+    border:2px solid white;
+    padding:15px 15px 15px 15px;
+    visibility:visible;
+    background-color:black;
+    border-radius: 15px;
+    line-height: 200%;
+}
