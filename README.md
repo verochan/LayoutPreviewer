@@ -6,7 +6,7 @@ Moreover, Layout Previewer checks that layout and graphic elements are properly 
 For example, name typos on atlases, layout elements, filenames, blank spaces or special characters not desired that can drive you mad wondering which is the problem for the graphics not loading correctly on the real project.<br/><br/>
 This tool is designed for rendering layouts for HTML5/JavaScript games or apps projects, specifically, developed with the JavaScript 2D WebGL graphics library PixiJS.
 
-##Features
+## Features
 
 * Layout support (position, size, scale)
 * Sprites support (position, size)
