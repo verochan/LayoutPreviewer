@@ -4,7 +4,9 @@ The purpose of this tool is to load the graphics part for videogames or apps pro
 By using this tool, graphic designers can check the graphics progress without the need of having the 'real' videogame or app project ready to load and show the assets.<br/><br/>
 Moreover, Layout Previewer checks that layout and graphic elements are properly defined and loaded following the tool's rules and the project's defined elements to load, showing rich information logs integrated on Chrome Developers Tools.<br/><br/>
 For example, name typos on atlases, layout elements, filenames, blank spaces or special characters not desired that can drive you mad wondering which is the problem for the graphics not loading correctly on the real project.<br/><br/>
-This tool is designed for rendering layouts for HTML5/JavaScript games or apps projects, specifically, developed with the JavaScript 2D WebGL graphics library PixiJS.
+This tool is designed for rendering layouts for HTML5/JavaScript games or apps projects, specifically, developed with the JavaScript 2D WebGL graphics library PixiJS.<br/><br/>
+
+You can see an example live on the following link: http://komikiro.com/layoutPreviewer/?project=supermariano&text=text
 
 ## Features
 
