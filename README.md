@@ -114,7 +114,7 @@ ButtonPopupTextureDown<br/>
 
 Depending on the order the layout elements are defined in layout.json, that's the order you'll get rendered on the tool, that is to say, if you want the clouds rendered behind the exit popup on 'supermariano' test project, define the exit popup layout after the clouds related layouts.<br/>
 
-## Tool Examples
+## Use Cases Examples
 ![alt text](https://github.com/verochan/LayoutPreviewer/blob/master/screenshots/example1.png "Example 1")<br/>
 Look at Chrome's console. Congratulations! Your layout load successfully because it's following the schema defined. Below, there's a warning in case you're missing the disabled texture version of a button, if that's not the case, just ignore the message :)<br/><br/>
 
