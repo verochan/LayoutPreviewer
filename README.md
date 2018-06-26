@@ -112,6 +112,19 @@ ButtonPopupTextureDown<br/>
 
 Depending on the order the layout elements are defined in layout.json, that's the order you'll get rendered on the tool, that is to say, if you want the clouds rendered behind the exit popup on 'supermariano' test project, define the exit popup layout after the clouds related layouts.<br/>
 
+## Tool Examples
+![alt text](https://github.com/verochan/LayoutPreviewer/blob/master/screenshots/example1.png "Example 1")<br/>
+Look at Chrome's console. Congratulations! Your layout load successfully because it's following the schema defined. Below, there's a warning in case you're missing the disabled texture version of a button, if that's not the case, just ignore the message :)<br/><br/>
+
+![alt text](https://github.com/verochan/LayoutPreviewer/blob/master/screenshots/example2.png "Example 2")<br/>
+On the checkboxes popup, you can check or uncheck the layouts you need to focus on certain graphic elements. There's also check and uncheck all buttons. By the way, if you look at Chrome's console you'll see information about layouts being loaded ok, if those layouts are children of another layout, it is shown too.<br/><br/>
+
+![alt text](https://github.com/verochan/LayoutPreviewer/blob/master/screenshots/example3.png "Example 3")<br/>
+Oops! SmallCloudLayout is defined on componentsToLoad json and required to load, but missing on layout.json file (or maybe mispelled).<br/><br/>
+
+![alt text](https://github.com/verochan/LayoutPreviewer/blob/master/screenshots/example4.png "Example 4")<br/>
+Another oops! In this case, at layout.json BrickBoxLayout, the property "SpriteBrickBoxButton_BrBox" is considered an additional property because it's not following the correct names format: A Sprite element can't contain any other reserved words such as Button, Text, Tag or Layout.<br/><br/>
+
 ## Additional instructions
 
 To know more details about the features of this tool, please check 'supermariano' project structure, assets and definition files. It's a complete project example of what this tool can do :) Don't forget to enable the console of Chrome Developer tools and to refresh deleting cache (right click on Reload web button, choose the third option) when making a new change on your project! ;)
