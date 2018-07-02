@@ -4,7 +4,9 @@ The purpose of this tool is to load the graphics part for videogames or apps pro
 By using this tool, graphic designers can check the graphics progress without the need of having the 'real' videogame or app project ready to load and show the assets.<br/><br/>
 Moreover, Layout Previewer checks that layout and graphic elements are properly defined and loaded following the tool's rules and the project's defined elements to load, showing rich information logs integrated on Chrome Developers Tools.<br/><br/>
 For example, name typos on atlases, layout elements, filenames, blank spaces or special characters not desired that can drive you mad wondering which is the problem for the graphics not loading correctly on the real project.<br/><br/>
-This tool is designed for rendering layouts for HTML5/JavaScript games or apps projects, specifically, developed with the JavaScript 2D WebGL graphics library PixiJS.
+This tool is designed for rendering layouts for HTML5/JavaScript games or apps projects, specifically, developed with the JavaScript 2D WebGL graphics library PixiJS.<br/><br/>
+
+You can see an example live on the following link: http://komikiro.com/layoutPreviewer/?project=supermariano&text=text
 
 ## Features
 
@@ -111,6 +113,19 @@ ButtonPopupTextureDown<br/>
 ## Layout Layers Order
 
 Depending on the order the layout elements are defined in layout.json, that's the order you'll get rendered on the tool, that is to say, if you want the clouds rendered behind the exit popup on 'supermariano' test project, define the exit popup layout after the clouds related layouts.<br/>
+
+## Use Cases Examples
+![alt text](https://github.com/verochan/LayoutPreviewer/blob/master/screenshots/example1.png "Example 1")<br/>
+Look at Chrome's console. Congratulations! Your layout load successfully because it's following the schema defined. Below, there's a warning in case you're missing the disabled texture version of a button, if that's not the case, just ignore the message :)<br/><br/>
+
+![alt text](https://github.com/verochan/LayoutPreviewer/blob/master/screenshots/example2.png "Example 2")<br/>
+On the checkboxes popup, you can check or uncheck the layouts you need to focus on certain graphic elements. There's also check and uncheck all buttons. By the way, if you look at Chrome's console you'll see information about layouts being loaded ok, if those layouts are children of another layout, it is shown too.<br/><br/>
+
+![alt text](https://github.com/verochan/LayoutPreviewer/blob/master/screenshots/example3.png "Example 3")<br/>
+Oops! SmallCloudLayout is defined on componentsToLoad json and required to load, but missing on layout.json file (or maybe mispelled).<br/><br/>
+
+![alt text](https://github.com/verochan/LayoutPreviewer/blob/master/screenshots/example4.png "Example 4")<br/>
+Another oops! In this case, at layout.json BrickBoxLayout, the property "SpriteBrickBoxButton_BrBox" is considered an additional property because it's not following the correct names format: A Sprite element can't contain any other reserved words such as Button, Text, Tag or Layout.<br/><br/>
 
 ## Additional instructions
 
