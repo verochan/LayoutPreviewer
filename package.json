@@ -1,0 +1,19 @@
+{
+  "name": "layoutpreviewer",
+  "version": "1.0.0",
+  "description": "The purpose of this tool is to load the graphics part for videogames or apps projects created by artists and designers. This way, it can be checked if the elements size, position, or the way the graphics look is correct.<br/><br/> By using this tool, graphic designers can check the graphics progress without the need of having the 'real' videogame or app project ready to load and show the assets.<br/><br/> Moreover, Layout Previewer checks that layout and graphic elements are properly defined and loaded following the tool's rules and the project's defined elements to load, showing rich information logs integrated on Chrome Developers Tools.<br/><br/> For example, name typos on atlases, layout elements, filenames, blank spaces or special characters not desired that can drive you mad wondering which is the problem for the graphics not loading correctly on the real project.<br/><br/> This tool is designed for rendering layouts for HTML5/JavaScript games or apps projects, specifically, developed with the JavaScript 2D WebGL graphics library PixiJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "verochan",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.0.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0"
+  }
+}

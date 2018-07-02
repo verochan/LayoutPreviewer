@@ -1,8 +1,8 @@
-const ASSETS_TYPE=
+const ASSETS_TYPE =
 {
-    'FONTS': 'fonts',
-    'IMAGES': 'images',
-    'ATLASES': 'atlas',
-    'SCHEMA': 'schema',
-    'RESOLUTION': 'resolution'
-};
+  'FONTS': 'fonts',
+  'IMAGES': 'images',
+  'ATLASES': 'atlas',
+  'SCHEMA': 'schema',
+  'RESOLUTION': 'resolution'
+}
